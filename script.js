@@ -47,3 +47,22 @@ if (formulario) {
         alert('TRANSMISSÃO INICIADA! Resolva o Captcha na próxima tela para finalizar. SHOWWWWWWW!');
     });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('mobile-menu');
+    const menuLinks = document.querySelector('.menu');
+
+    menuToggle.addEventListener('click', () => {
+        menuLinks.classList.toggle('active');
+        
+        // Animação opcional no botão hambúrguer (transforma em X)
+        menuToggle.classList.toggle('is-active');
+    });
+
+    // Fechar o menu ao clicar em um link
+    document.querySelectorAll('.menu-link').forEach(link => {
+        link.addEventListener('click', () => {
+            menuLinks.classList.remove('active');
+        });
+    });
+});
