@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Barbosa | Contact_Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<div id="preloader">
+    <div class="loader-content">
+        <div class="loader-text">INICIALIZANDO_CONTATO...</div>
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="bar"></div>
+        </div>
+        <div class="loader-status">
+            <span id="percent">0%</span>
+            <span class="status-msg">CARREGANDO_SISTEMA...</span>
+        </div>
+    </div>
+</div>
+
+
+
+<body class="cyber-interface">
+    <div class="scanlines"></div>
+
+    <header class="navecacao-container">
+        <nav class="navecacao">
+            <div class="logo-area">
+                <span class="neon-text-red">DANIEL</span>_CONTATO
+            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-link">// HOME</a></li>
+                <li><a href="historia.html" class="menu-link">// HISTORIA</a></li>
+                <li><a href="projetos.html" class="menu-link">// PROJETOS</a></li>
+                <li><a href="contato.html" class="menu-link active" data-text="CONTATO">// CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-contato">
+        <div class="contato-wrapper">
+            <div class="info-painel">
+                <h2 class="glitch-effect" data-text="ESTABELECER CONEXÃO">ESTABELECER CONEXÃO</h2>
+                <p class="desc-terminal">Inicie uma transmissão direta para o terminal do desenvolvedor.</p>
+
+                <div class="contato-items">
+                    <div class="item">
+                        <span class="label">TELEFONE:</span>
+                        <span class="value">(94) 99274-7562</span>
+                    </div>
+                    <div class="item">
+                        <span class="label">LOCALIZAÇÃO:</span>
+                        <span class="value">Rua Jacarandá, PA</span>
+                    </div>
+                    <div class="item">
+                        <span class="label">STATUS:</span>
+                        <span class="value neon-text-green">DISPONÍVEL PARA CONTRATAÇÃO</span>
+                    </div>
+                </div>
+            </div>
+
+           <form action="https://formspree.io/f/mreazlza" method="POST" class="formulario-cyber">
+    <div class="input-group">
+        <label>NOME</label>
+        <input type="text" name="name" placeholder="Seu nome..." required>
+    </div>
+    <div class="input-group">
+        <label>EMAIL</label>
+        <input type="email" name="_replyto" placeholder="seu-email@nome.com" required>
+    </div>
+    <div class="input-group">
+        <label>ESCREVA SUA MENSAGEM</label>
+        <textarea name="message" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+    </div>
+    
+    <input type="hidden" name="_subject" value="Nova Transmissão do Portfólio!">
+
+    <button type="submit" class="btn-enviar">
+        <span class="btn-text">ENVIAR</span>
+        <span class="btn-glitch"></span>
+    </button>
+</form>
+            </div>
+
+
+
+        
+    </main>
+
+    <footer class="copyright-area">
+
+        <p>© 2026 // DANIEL_PORTFOLIO // v1.0.0</p>
+    </footer>
+
+    <script>
+        // Pequeno script para efeito sonoro ou visual ao enviar
+        document.querySelector('.formulario-cyber').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('TRANSMISSÃO ENVIADA COM SUCESSO! SHOWWWWWWW!');
+        });
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
