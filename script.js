@@ -323,11 +323,11 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     // 1. Dados para o Showcase (Imagens e Nomes de Módulo Tech)
     const projetosApresentacao = [
-        { nome: "> MODULE: HNUNES_REAL_ESTATE", img: "./img/hn.png" },
-        { nome: "> MODULE: VALE_ARAGUAIA_COMMERCIAL", img: "./img/ca.png" },
-        { nome: "> MODULE: THREE_TECH_EDUCATION", img: "./img/trheee.png" },
-        { nome: "> MODULE: DANIEL_PORTFOLIO_V2", img: "./img/portifolio.png" },
-         { nome: "> MODULE: CLINICA_CORE_HEALTH_TECH", img: "./img/cc.png" }
+        { nome: "> 01: H NUNES IMOBILIÁRIA", img: "./img/hn.png" },
+        { nome: "> 02: COMERCIAL VALE ARAGUAIA", img: "./img/ca.png" },
+        { nome: "> 03: THREE_TECHNOLOGY", img: "./img/trheee.png" },
+        { nome: "> 04: PORTFOLIO DANIEL", img: "./img/portifolio.png" },
+        { nome:"> 05: CLINICA CORE", img: "./img/cc.png" }
     ];
 
     let count = 0;
