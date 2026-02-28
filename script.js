@@ -326,8 +326,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { nome: "> MODULE: HNUNES_REAL_ESTATE", img: "./img/hn.png" },
         { nome: "> MODULE: VALE_ARAGUAIA_COMMERCIAL", img: "./img/ca.png" },
         { nome: "> MODULE: THREE_TECH_EDUCATION", img: "./img/trheee.png" },
-        { nome: "> MODULE: CLINICA_CORE_HEALTH_TECH", img: "./img/cc.png" },
-        { nome: "> MODULE: DANIEL_PORTFOLIO_V2", img: "./img/portifolio.png" }
+        { nome: "> MODULE: DANIEL_PORTFOLIO_V2", img: "./img/portifolio.png" },
+         { nome: "> MODULE: CLINICA_CORE_HEALTH_TECH", img: "./img/cc.png" }
     ];
 
     let count = 0;
