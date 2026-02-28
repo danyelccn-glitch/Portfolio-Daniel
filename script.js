@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function iniciarApresentacao() {
         const intro = document.getElementById('intro-apresentacao');
         const introText = document.getElementById('intro-text');
-        const projetos = ["HNUNES IMOBILIÁRIA", "COMERCIAL ARAGUAIA", "THREE TECHNOLOGY", "CLÍNICA CORE", "DANIEL_PORTFOLIO v2.0"];
+        const projetos = ["H NUNES IMOBILIÁRIA", "COMERCIAL VALE DO ARAGUAIA", "THREE TECHNOLOGY", "PORTFOLIO DANIEL ", "CLÍNICA CORE"];
         
         preloader.style.opacity = "0";
         setTimeout(() => preloader.style.display = "none", 500);
@@ -324,8 +324,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // 1. Dados para o Showcase (Imagens e Nomes de Módulo Tech)
     const projetosApresentacao = [
         { nome: "> 01: H NUNES IMOBILIÁRIA", img: "./img/hn.png" },
-        { nome: "> 02: COMERCIAL VALE ARAGUAIA", img: "./img/ca.png" },
-        { nome: "> 03: THREE_TECHNOLOGY", img: "./img/trheee.png" },
+        { nome: "> 02: COMERCIAL VALE DO ARAGUAIA", img: "./img/ca.png" },
+        { nome: "> 03: THREE TECHNOLOGY", img: "./img/trheee.png" },
         { nome: "> 04: PORTFOLIO DANIEL", img: "./img/portifolio.png" },
         { nome:"> 05: CLINICA CORE", img: "./img/cc.png" }
     ];
